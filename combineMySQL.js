@@ -40,7 +40,7 @@ connection.connect(function (err) {
 app.get("/", (req, res) => {
   // 便宜上引数をreqにしてるだけでrequestでもhogeでもいい、これは仮引数＋コールバック関数
   const sql = "select * from book";
-  connection.query(sql, function (err, result, fields) {
+  connection.query(sql, function (err, result, fields) {  // ここはアロー関数にしても問題なく動く
     if (err) throw err;
     res.send(result);
   });
