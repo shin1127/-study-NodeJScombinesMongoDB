@@ -1,6 +1,4 @@
-# Node.jsでMongoDBを操作する
-
-主にudemyの講座におけるサンプルコードを利用
+# Node.jsでDBを操作する
 
 ## Things I learned
 
@@ -13,3 +11,4 @@
 Node.js 12.16.3
 mongodb 3.0(Node.jsに導入するライブラリ)
 MongoDB 3.4.24
+MariaDB Ver 15.1 Distrib 10.4.11
