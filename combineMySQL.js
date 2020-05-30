@@ -1,7 +1,13 @@
 // あらかじめMariaDBに作成したbookというテーブルから、書籍情報を取り出しローカルサーバーに表示する
 // ただしこのソースコードでは出力される内容を成形できていない
 
-// [{"title":"スッキリわかるJava入門","author":"中山清喬","publisher":"インプレス\r"},{"title":"スッキリわかるJava入門 実践編","author":"中山清喬","publisher":"インプレス\r"},{"title":"スッキリわかるサーブレット & JSP入門","author":"国本大悟","publisher":"インプレス\r"},{"title":"Pythonチュートリアル","author":"Guido van Rossum","publisher":"o'reilly\r"},{"title":"図解でわかる統計解析","author":"前野昌弘 三國彰","publisher":" 日本実業出版社\r"},{"title":"考える技術としての統計学","author":"飯田泰之","publisher":"NHKブックス\r"},{"title":"手に取るように心理学がわかる本","author":"渋谷昌三 小野寺敦子","publisher":" かんき出版\r"},{"title":"基礎からのMySQL改訂版","author":"西沢夢路","publisher":"SB Creative"}]
+// 出力（本来は全く改行されない）
+// [{"title":"スッキリわかるJava入門","author":"中山清喬","publisher":"インプレス\r"},{"title":"スッキリわかるJava入門 実践編",
+// "author":"中山清喬","publisher":"インプレス\r"},{"title":"スッキリわかるサーブレット & JSP入門","author":"国本大悟",
+//   "publisher":"インプレス\r"},{"title":"Pythonチュートリアル","author":"Guido van Rossum","publisher":"o'reilly\r"},
+//     {"title":"図解でわかる統計解析","author":"前野昌弘 三國彰","publisher":" 日本実業出版社\r"},{"title":"考える技術としての統計学",
+//       "author":"飯田泰之","publisher":"NHKブックス\r"},{"title":"手に取るように心理学がわかる本","author":"渋谷昌三 小野寺敦子",
+//         "publisher":" かんき出版\r"},{"title":"基礎からのMySQL改訂版","author":"西沢夢路","publisher":"SB Creative"}]
 
 var mysql = require("mysql"); // mysql操作用のライブラリ
 var express = require("express");
