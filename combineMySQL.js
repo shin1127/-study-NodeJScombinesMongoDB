@@ -1,6 +1,7 @@
 // あらかじめMariaDBに作成したbookというテーブルから、書籍情報を取り出しローカルサーバーに表示する
 // ただしこのソースコードでは出力される内容を成形できていない
 // \rが入っているのはデータベースに取り込んだCSVファイル内の問題かも
+// 参考サイト：https://reffect.co.jp/node-js/express-js-connect-mysql#MySQL-4
 
 // 出力（本来は全く改行されない）
 // [{"title":"スッキリわかるJava入門","author":"中山清喬","publisher":"インプレス\r"},{"title":"スッキリわかるJava入門 実践編",
