@@ -41,6 +41,10 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/add", (req, res) => {
+  res.render("add");
+});
+
 app.get("/delete/:title", (req, res) => {
   const sql = "DELETE FROM book WHERE title = ?";
   connection.query(sql, [req.params.title], function (err, result, fields) {
