@@ -22,7 +22,7 @@
 
 ## environment development
 
-Node.js 12.16.3
-mongodb 3.0(Node.jsに導入するライブラリ)
-MongoDB 3.4.24
-MariaDB Ver 15.1 Distrib 10.4.11
+Node.js 12.16.3  
+mongodb 3.0(Node.jsに導入するライブラリ)  
+MongoDB 3.4.24  
+MariaDB Ver 15.1 Distrib 10.4.11  
