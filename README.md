@@ -6,7 +6,7 @@
 
 -  MongoDBのクエリはJSの文法に近いらしい（MySQLと比べたら確かにプログラミング言語っぽい）
 -  NoSQLの中ではMongoDBは別にメジャーではないらしい　Node.jsのテキストでよく紹介されてるのは上の理由からかも
--  NoSQLではKVSが一番メジャーかもしれないらしい
+-  NoSQLではKVSが一番メジャーかもしれないらしい　→ redis
 
 ### MySQL(MariaDB)
 
