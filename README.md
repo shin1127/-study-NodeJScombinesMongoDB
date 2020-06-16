@@ -20,6 +20,9 @@
 -  `node app.js`で実行しても、localhostでブラウザ開かないとapp.get()のクエリは実行されない
 -  functionでもアロー関数でも、その中で宣言されたconstやletはローカルスコープになる
 -  SQLインジェクションを回避せよ
+-  static関数をrequireすると、静的ファイルの初期の参照先を指定できる
+-  あいまい検索をしたい　→　正規表現　→　select * from book where title like "%hoge%hoge"　（%は任意の文字列）
+
 
 /hoge/fuga/bar.ejsにアクセスする→index.ejsにレンダリングする　という形で、index.ejsがブラウザに表示される  
 しかし、実質的に参照しているディレクトリは/hoge/fugaってことになってる  
