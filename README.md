@@ -19,6 +19,12 @@
 -  app.get()で同じパス（"/"とか）を複数指定すると、一番上のしか反応しない（その時点でレスポンスが返ってしまう）
 -  `node app.js`で実行しても、localhostでブラウザ開かないとapp.get()のクエリは実行されない
 -  functionでもアロー関数でも、その中で宣言されたconstやletはローカルスコープになる
+-  SQLインジェクションを回避せよ
+
+/hoge/fuga/bar.ejsにアクセスする→index.ejsにレンダリングする　という形で、index.ejsがブラウザに表示される  
+しかし、実質的に参照しているディレクトリは/hoge/fugaってことになってる  
+
+- アンチパターン　../../../../../index.css
 
 ## environment development
 
